@@ -1,0 +1,20 @@
+#prev,#next,#pageNav a{
+    border: 1px solid #dddddd;
+    line-height: 20px;
+    padding: 4px 12px;
+    color:#0088cc;
+    cursor:pointer;
+}
+#prev:hover,
+#next:hover{
+    background:#0088cc;
+    color: #fff;
+}
+.pagination{
+    height: 20px
+}
+#pageNav a.active,
+#pageNav a:hover {
+    background:#0088cc;
+    color: #fff
+}

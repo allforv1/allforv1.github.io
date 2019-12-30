@@ -1,0 +1,90 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	list-style: none;
+	text-decoration: none;
+	color:black;
+}
+a:hover{
+	color : rgba(26, 26, 26, .8);
+}
+.main {
+	position: relative;
+	padding: 16px 20px;
+	background: #fff;
+	overflow: hidden;
+	border-bottom:1px solid rgba(26, 26, 26, .1) ;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.rowtop,
+.main-text {
+	display: block;
+}
+
+.rowtop {
+	width: 100%;
+}
+
+.main-text {
+	margin: 5px 0;
+	text-indent: 2em;
+}
+
+.main-text .openall {
+	cursor:pointer;
+	text-indent: 0em;
+	color: deepskyblue;
+}
+.main-text .openall:hover{
+	color: #0084ff;
+}
+
+.main-foot {
+	display: block;
+	margin-top: 10px;
+}
+
+.main-foot button {
+	cursor:pointer;
+	padding: 0 12px;
+	line-height: 30px;
+	color: #0084ff;
+	background: rgba(0, 132, 255, .1);
+	border-color: transparent;
+}
+.main-foot button:hover{
+	background: rgba(0, 132, 255, .3);
+}
+.clicking {
+	color: #fff;
+	background: #0084ff;
+}
+.main-foot .closeall{
+	display: none;
+	cursor:pointer;
+	line-height: 30px;
+	float: right;
+	color:deepskyblue ;
+}
+.main-foot .closeall:hover{
+	color: #0084ff;
+}
+.main-foot .gooding,
+.main-foot .baging,
+.main-foot .tolded{
+	cursor:pointer;
+	color:white;
+	background:#0084ff ;
+}
+.main-foot .gooding:hover,
+.main-foot .baging:hover,
+.main-foot .tolded:hover{
+	cursor:pointer;
+	color:white;
+	background:#0084ff;
+}
